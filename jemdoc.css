@@ -1,4 +1,4 @@
-/* Default css file for jemdoc. */
+/* Modified default CSS file with jemdoc */
 
 table#tlayout {
     border: none;
@@ -7,23 +7,25 @@ table#tlayout {
 }
 
 body {
-	background: white;
-	font-family: Georgia, serif;
+	background: #E5E4E2;
+	font-family: Bitstream Charter, serif;
 	padding-bottom: 8px;
 	margin: 0;
+	font-size: 1.025em;
+	width: 1100px;
 }
 
 #layout-menu {
-	background: #f6f6f6;
+	background: #E5E4E2;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
-	font-size: 1.0em;
-	width: auto;
+	font-size: 1.05em;
 	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
+    	text-align: left;
+    	vertical-align: top;
+	width: 110px;
 }
 
 #layout-menu td {
