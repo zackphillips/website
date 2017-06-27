@@ -5,28 +5,31 @@
 {}{img_left}{./zp_150x150.jpeg}{Zack Phillips}{150}{150}{https://www.ocf.berkeley.edu/~zfphil/}
 PhD Candidate,\n [http://www.laurawaller.com Waller Lab], \n[http://www.berkeley.edu UC Berkeley]\n
 Berkeley, California, USA\n
-email: /zkphil/ \[at] berkeley \[DOT\] edu
+email: zkphil \[at\] berkeley \[dot\] edu \n
+\[[https://github.com/zfphil github]\]   \[[https://scholar.google.com/citations?user=yRsMPdkAAAAJ&hl=en scholar]\]   \[[https://www.linkedin.com/in/zack-phillips-b2888949/ linkedin]\]
 ~~~
 
 == About me
-I received the B.S. with Highest Honors in Applied Science and Engineering at UNC Chapel Hill in 2013. While at UNC, I was an undergraduate researcher in the [https://users.physics.unc.edu/~aold/people.htm Optical Coherence Imaging Lab]. I then spent a year as an Associate in Research in the [http://disp.duke.edu/ DISP Lab at Duke University]. Since 2014, I have been a graduate student in the Department of Electrical Engineering and Computer Sciences at UC Berkeley, where I work with [http://www.laurawaller.com Associate Prof. Laura Waller], where I explore new and novel ways of designing imaging hardware and reconstruction algorithms together, optimizing for performance, robustness, and price.\n
+I received the B.S. with Highest Honors in Applied Science and Engineering at UNC Chapel Hill in 2013. While at UNC, I was an undergraduate researcher in the [https://users.physics.unc.edu/~aold/people.htm Optical Coherence Imaging Lab]. I then spent a year as an Associate in Research in the [http://disp.duke.edu/ DISP Lab at Duke University]. Since 2014, I have been a graduate student in the Department of Electrical Engineering and Computer Sciences at UC Berkeley, where I work with [http://www.laurawaller.com Associate Prof. Laura Waller]. I earned my M.S. in Applied Science and Technology from Berkeley in 2016. As part of Laura's group, I work with fellow graduate students and collaborators to explore new and novel ways of designing imaging hardware and reconstruction algorithms together, optimizing for performance, robustness, and price.\n
 
-== Research
-Things I'm excited to work on:
+Outside of research, I enjoy surfing, camping, woodworking, running, kitesurfing, and volunteering. Since 2014 I have been a part of the [http://berc.berkeley.edu/programs/seed/ Students for Environmental Energy Development (SEED)] program, a weekly after-school program for 4th and 5th graders at La Esculeta Elementary in Oakland, CA.
+
+== Research Topics
 - Computational Imaging System Design
 - Full-Stack Imaging
 - High-Throughput Microscopy
 - Quantitative Phase Imaging
-
-See [research.html my research page] for more information.
+- VR/AR
 
 === Open-Source
 See my [https://github.com/zfphil Github page] for more information. Some of my work is featured on my lab group's [http://www.laurawaller.com/opensource/ Open-source page].
 
 === Recent Publications
-. Pub 1
-. Pub 2
+. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171228 Single-shot quantitative phase microscopy with color-multiplexed differential phase contrast (cDPC) (With Michael Chen)]
+. [https://www.dropbox.com/s/emnxog3kvvpphvy/Phillips_mastersThesis_submitted.pdf?dl=0 Coded illumination techniques for phase imaging and motion blur]
+. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0124938 Multi-contrast imaging and digital refocusing on a mobile microscope with a domed LED array]
 
-[publications.html Full list of publications].
+See [publications.html Full list of publications and proceedings].
 \n
-[cv.pdf A brief cv].
+
+[cv.pdf cv].
