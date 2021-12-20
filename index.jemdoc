@@ -11,18 +11,20 @@ email: zkphil \[at\] berkeley \[dot\] edu \n
 ~~~
 
 == About me
-Since July 2019 I've been member of the Exploratory Design Group at [https://www.apple.com Apple] working as a technical contributor on several exploratory projects. Prior to joining Apple I was a Ph.D. Candidate in the [http://www.laurawaller.com Waller Lab] at UC Berkeley, where I earned my Ph.D. in [http://ast.berkeley.edu Applied Science and Technology] in 2019. As part of the Waller Lab, I worked with fellow graduate students and collaborators to explore new and novel ways of designing imaging hardware and reconstruction algorithms together, optimizing for performance, robustness, and price. During this time I developed an interdisciplinary skill-set which spans large-scale computation, optical engineering, mechanical engineering, and circuit design. \n
+Since November 2021 I've been a Senior Machine Learning / Optical Engineer at [https://www.insitro.com Insitro], where I am part of the Advanced Imaging Methods group. From July 2019 - October 2021 I was member of the Exploratory Design Group at [https://www.apple.com Apple] working as a technical contributor on several exploratory projects. Prior to joining Apple I was a Ph.D. Candidate in the [http://www.laurawaller.com Waller Lab] at UC Berkeley, where I earned my Ph.D. in [http://ast.berkeley.edu Applied Science and Technology] in 2019. As part of the Waller Lab, I worked with fellow graduate students and collaborators to explore new and novel ways of designing imaging hardware and reconstruction algorithms together, optimizing for performance, robustness, and price. During this time I developed an interdisciplinary skill-set which spans large-scale computation, optical engineering, mechanical engineering, and circuit design. \n
+
+While at Berkeley, I co-founded [http://www.sci-microscopy.com SCI Microscopy] to develop domed microscope illuminators for quantitative phase imaging, and other purposes. As of 2021, we've delivered over 40 devices to customers in over 7 countries. Our customers include major microscopy companies, small start-ups, national laboratories and standards institues. As CEO, I personally oversaw the design and prototyping of each device as well as the fulfillment of each order.
 
 Before moving to California, I spent a year as an Associate in Research in the [http://disp.duke.edu/ DISP Lab at Duke University] after completing my BS with highest honors from UNC-Chapel Hill in Applied Science and Engineering (with a BME concentration) - which is now the [https://www.bme.unc.edu UNC Biomedical Engineering Department]. Outside of research, I enjoy surfing, camping, woodworking, running, kitesurfing, and volunteering. From 2014 to 2018 I was part of the [http://berc.berkeley.edu/programs/seed/ Students for Environmental Energy Development (SEED)] program, a weekly after-school program for 4th and 5th graders at La Esculeta Elementary in Oakland, CA.
 
-== Work-interests:
-- Computational Imaging System Design
-- Low-cost computational imaging
-- High-Throughput Microscopy
-- Quantitative Phase Imaging
+== Work-Interests:
+- Computational Imaging Systems
+- Quantitative Phase Microscopy
+- High-Throughput Imaging and Spectroscopy
+- Optical and Optomechancial Design
 
 === Open-Source
-See my [https://github.com/zfphil Github page] for more information. Some of my work is featured on my lab group's [http://www.laurawaller.com/opensource/ Open-source page].
+See my [https://github.com/zfphil Github page] for more information, as well as [https://github.com/sci-microscopy SCI Microscopy's GitHub page]. Some of my work is featured on my lab group's [http://www.laurawaller.com/opensource/ Open-source page].
 
 === Recent Publications
 . [https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-281 High-throughput fluorescence microscopy using multi-frame motion deblurring (with Sarah Dean)]
