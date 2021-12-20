@@ -1,11 +1,12 @@
 # jemdoc: menu{MENU}{index.html}, nofooter
-==Zack Phillips
+=Zack Phillips, PhD
 
 ~~~
-{}{img_left}{./zp_updated-2.jpeg}{Zack Phillips, PhD.}{150}{150}{https://www.ocf.berkeley.edu/~zfphil/}
-Optical Engineer\n [http://www.apple.com Apple]\n
-Cupertino, California, USA\n
-email: zkphil \[at\] berkeley \[dot\] edu \n
+{}{img_left}{./me_global.jpeg}{Zack Phillips, PhD.}{200}{200}{https://www.ocf.berkeley.edu/~zfphil/}
+
+Senior ML Optical Engineer, [http://insitro.com insitro]\n
+San Francisco, California, USA\n\n
+zack \[at\] zackphillips \[dot\] com \n
 \[[https://github.com/zackphillips github]\]   \[[https://scholar.google.com/citations?user=yRsMPdkAAAAJ&hl=en scholar]\]   \[[https://www.linkedin.com/in/zack-phillips-b2888949/ linkedin]\]
 \[[cv.pdf cv]\]
 ~~~
@@ -24,7 +25,7 @@ Before moving to California, I spent a year as an Associate in Research in the [
 - Optical and Optomechancial Design
 
 === Open-Source
-See my [https://github.com/zfphil Github page] for more information, as well as [https://github.com/sci-microscopy SCI Microscopy's GitHub page]. Some of my work is featured on my lab group's [http://www.laurawaller.com/opensource/ Open-source page].
+See my [https://github.com/zackphillips Github page] for more information, as well as [https://github.com/sci-microscopy SCI Microscopy's GitHub page]. Some of my work is featured on my lab group's [http://www.laurawaller.com/opensource/ Open-source page].
 
 === Recent Publications
 . [https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-281 High-throughput fluorescence microscopy using multi-frame motion deblurring (with Sarah Dean)]
