@@ -6,7 +6,7 @@ update :
 realupdate :
 	@make -C www realupdate
 
-.PHONY : wwws
+.PHONY : www
 docs :
 	@make -C www docs
 
