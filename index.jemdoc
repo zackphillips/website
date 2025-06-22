@@ -1,44 +1,44 @@
 # jemdoc: menu{MENU}{index.html}, nofooter
-=Zack Phillips, PhD
+= Zack Phillips, PhD
 
 ~~~
 {}{img_left}{./me_global.png}{Zack Phillips, PhD.}{200}{200}{https://www.ocf.berkeley.edu/~zfphil/}
 
-Senior Manager, Computational Microscopy, [http://insitro.com insitro]\n
-San Francisco, California, USA\n\n
-zack \[at\] zackphillips \[dot\] com \n
-\[[https://github.com/zackphillips github]\]   \[[https://scholar.google.com/citations?user=yRsMPdkAAAAJ&hl=en scholar]\]   \[[https://www.linkedin.com/in/zack-phillips-b2888949/ linkedin]\]
+Senior Manager, Computational Microscopy, [http://insitro.com insitro]  
+San Francisco, California, USA  
+  
+zack \[at\] zackphillips \[dot\] com  
+\[[https://github.com/zackphillips github]\]   \[[https://scholar.google.com/citations?user=yRsMPdkAAAAJ&hl=en scholar]\]   \[[https://www.linkedin.com/in/zack-phillips-b2888949/ linkedin]\]  
 \[[cv.pdf cv]\]
 ~~~
 
-== About me
-I am a computational sensing specialist with experience spanning biometric sensing (Apple Exploratory Design), drug discovery ([http://www.insitro.com insitro]), and defense ([http://disp.duke.edu/ AWARE Project at Duke University]).
-I earned my PhD in computational imaging from the [http://www.laurawaller.com Computational Imaging Lab], led by [https://www2.eecs.berkeley.edu/Faculty/Homepages/waller.html Laura Waller], within the [https://eecs.berkeley.edu/ EECS Department] at UC Berkeley. 
+== About Me
+I’m a full-stack computational sensing engineer and technical leader with experience across biometric sensing ([https://www.bloomberg.com/news/articles/2023-02-27/apple-makes-major-progress-on-no-prick-blood-glucose-tracking Apple XDG]), drug discovery ([http://insitro.com insitro]), and defense ([http://disp.duke.edu/ AWARE Project at Duke University]). I specialize in designing and deploying pragmatic, end-to-end sensing systems—from optics and electronics to software and machine learning—for decision-critical applications.
 
-Through my career, I've anchored on two themes: anchoring on *outcomes* that further broader strategies, and developing skills for myself and those around around me.
+My work blends signal processing, optical physics, and computer vision with scalable infrastructure for data generation and analysis. I thrive in execution-focused R&D environments, and enjoy designing and building complex systems under real-world constraints. Over the past few years, I’ve grown into technical leadership and people management, where I focus on clarity, sustainable execution, and empowering teams to solve hard problems with creativity.
 
-Currently, I lead the Computational Microscopy Team at insitro, where I focus on developing scalable, ML-ready datasets through optical microscopy to enhance drug discovery. I also oversee insitro’s imaging platform, coordinating company-wide microscopy efforts.
-My PhD and master's degrees were granted by the [https://grad.berkeley.edu/program/applied-science-tech/ Applied Science and Technology] graduate group, a small and lightly structured doctoral program within the College of Engineering. 
-While at Berkeley, I co-founded [http://sci-microscopy.com SCI Microscopy] with my PhD advisor. 
-Prior to moving to California from my home state of North Carolina, I worked as a lab technician in the [http://disp.duke.edu/ DISP Lab at Duke University]. 
-I completed my BS with highest honors in Applied Science and Engineering (Biomedical Engineering concentration) at UNC-Chapel Hill, which is now the [https://www.bme.unc.edu UNC Biomedical Engineering Department].
+Currently, I lead the Computational Microscopy Team at insitro, where I oversee our imaging platform and develop high-throughput, ML-ready microscopy datasets to support early-stage drug discovery.
 
-Outside of work, I enjoy surfing, sailing, wingfoiling, and biking. I participated in the [http://berc.berkeley.edu/programs/seed/ Students for Environmental Energy Development (SEED)] program from 2014 to 2018, where I mentored 4th and 5th graders at La Escuelita Elementary in Oakland, CA.
+I earned my PhD in computational imaging at [https://eecs.berkeley.edu/ UC Berkeley], advised by [https://www2.eecs.berkeley.edu/Faculty/Homepages/waller.html Laura Waller] in the [http://www.laurawaller.com Computational Imaging Lab]. I co-founded [http://sci-microscopy.com SCI Microscopy], a spin-out focused on open hardware for coded illumination. I completed my undergraduate work in biomedical engineering at [https://www.bme.unc.edu UNC-Chapel Hill] and worked at Duke's DISP Lab prior to grad school.
 
-== Work-Interests:
-- Computational Imaging and Sensing
-- Quantitative Microscopy
-- Optical and Optomechancial Design
-- Software Architecture
+== Focus Areas
+- Computational Imaging and Sensing  
+- ML-Ready Data Generation  
+- Optical and Optomechanical System Design  
+- Signal Processing and Computer Vision  
+- Software Architecture and Prototyping  
 
 === Open-Source
-See my [https://github.com/zackphillips Github page] for more information, as well as [https://github.com/sci-microscopy SCI Microscopy's GitHub page]. Some of my work is featured on my lab group's [http://www.laurawaller.com/opensource/ Open-source page].
+See my [https://github.com/zackphillips GitHub page] for personal projects, as well as [https://github.com/sci-microscopy SCI Microscopy's GitHub] for academic and commercial tools. Selected work is also featured on my lab’s [http://www.laurawaller.com/opensource/ open-source page].
 
 === Recent Publications
-. [https://www.biorxiv.org/content/10.1101/2023.08.13.553051v1 A Pooled Cell Painting CRISPR Screening Platform Enables de novo Inference of Gene Function by Self-supervised Deep Learning (with insitro team)]
-. [https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-281 High-throughput fluorescence microscopy using multi-frame motion deblurring (with Sarah Dean)]
-. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171228 Single-shot quantitative phase microscopy with color-multiplexed differential phase contrast (cDPC) (with Michael Chen)]
-. [https://www.dropbox.com/s/emnxog3kvvpphvy/Phillips_mastersThesis_submitted.pdf?dl=0 Coded illumination techniques for phase imaging and motion blur]
-. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0124938 Multi-contrast imaging and digital refocusing on a mobile microscope with a domed LED array]
+. [https://www.biorxiv.org/content/10.1101/2023.08.13.553051v1 A Pooled Cell Painting CRISPR Screening Platform Enables de novo Inference of Gene Function by Self-supervised Deep Learning]  
+. [https://www.osapublishing.org/boe/abstract.cfm?uri=boe-11-1-281 High-throughput fluorescence microscopy using multi-frame motion deblurring]  
+. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171228 Single-shot quantitative phase microscopy with color-multiplexed differential phase contrast (cDPC)]  
+. [https://www.dropbox.com/s/emnxog3kvvpphvy/Phillips_mastersThesis_submitted.pdf?dl=0 Coded illumination techniques for phase imaging and motion blur]  
+. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0124938 Multi-contrast imaging and digital refocusing on a mobile microscope with a domed LED array]  
 
-See [https://scholar.google.com/citations?user=yRsMPdkAAAAJ&hl=en Full list of publications and proceedings].
+See [https://scholar.google.com/citations?user=yRsMPdkAAAAJ&hl=en full list of publications and proceedings].
+
+=== Outside of Work
+When I’m not building things, I’m probably surfing, sailing, wingfoiling, or biking. I previously mentored 4th and 5th graders through the [http://berc.berkeley.edu/programs/seed/ SEED environmental education program] in Oakland, CA (2014–2018).
