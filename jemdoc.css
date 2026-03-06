@@ -1,121 +1,375 @@
+/* Zack Phillips — Personal Website */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
-    font: 80% Verdana;
-    margin-left: 2em;
-    margin-top: 1em;
+    margin: 0;
+    padding: 0;
+    background: #eef2f7;
+    color: #2d3748;
+    font-family: Georgia, Cambria, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-pre, tt {
-    font-size: 110%;
-    background: #ffffdd;
+#layout {
+    display: flex;
+    max-width: 860px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 24px rgba(0, 0, 0, 0.07);
 }
 
-tt {
-    color: ##003366;
-}
-
-pre {
-    color: black;
-}
-
-a {
-    border-bottom: 1px solid #bbbbbb;
-    color: black;
-}
-
-h1 {
-    font-size: 150%;
-    border: none;
-}
-
-h2 {
-    font-size: 115%;
-    border: none;
-}
-
-h3 {
-    font-size: 100%;
-    border: none;
-}
-
-h1, h2, h3, div.blocktitle {
-    color: #003366;
-}
-
-div.blockcontent {
-    border: none;
-}
-
-div.infoblock > div.blockcontent {
-    background: #ffffdd;
-}
-
-div.codeblock > div.blockcontent, div.blockcontent pre {
-	background: #f8f8f8;
-}
-
-body, p {
-    line-height: 1.5em;
-	margin-bottom: 1.2em;
-}
+/* ── Navigation Sidebar ── */
 
 #layout-menu {
-    padding-left: 20px;
-    padding-right: 20px;
-    background: none;
-    text-align: right;
-    border: none;
-    padding-top: 3.0em;
+    width: 130px;
+    flex-shrink: 0;
+    padding: 2rem 0.75rem;
+    background: #f7fafc;
+    border-right: 1px solid #e2e8f0;
 }
 
-#layout-content {
-    padding-left: 25px;
-    padding-top: 1em;
-    width: 600px;
+.menu-item {
+    margin-bottom: 0.3em;
 }
 
-b {
-    font-weight: normal;
+.menu-item a {
+    display: block;
+    color: #4a5568;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.84rem;
+    padding: 0.25em 0.5em;
+    border-radius: 3px;
+    transition: color 0.15s, background 0.15s;
 }
 
-p b {
-    font-style: italic;
+.menu-item a:hover {
+    color: #2b6cb0;
+    background: #ebf4ff;
+    text-decoration: none;
+}
+
+.menu-item a.current {
+    color: #2b6cb0;
+    font-weight: 600;
 }
 
 div.menu-category {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #a0aec0;
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* ── Main Content ── */
+
+#layout-content {
+    flex: 1;
+    padding: 2rem 2.25rem 3rem 2rem;
+    min-width: 0;
+}
+
+/* ── Page Title ── */
+
+#toptitle {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+#toptitle h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1a202c;
+    line-height: 1.2;
+    border-bottom: none;
+    padding: 0;
+}
+
+/* ── Profile Block ── */
+
+.profile {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid #e2e8f0;
+}
+
+.profile-info {
+    font-size: 0.95rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.profile-info p {
+    margin: 0 0 0.45em 0;
+    color: #4a5568;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.profile-info .email {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.85rem;
+    color: #718096;
+}
+
+.profile-links {
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+}
+
+.profile-links a {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    padding: 0.2em 0.7em;
+    border: 1px solid #bee3f8;
+    border-radius: 20px;
+    background: #ebf8ff;
+    transition: background 0.15s, border-color 0.15s;
+    letter-spacing: 0.01em;
+}
+
+.profile-links a:hover {
+    background: #bee3f8;
+    border-color: #90cdf4;
+    text-decoration: none;
+}
+
+/* ── Section Headings ── */
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #a0aec0;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+    border-bottom: none;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    line-height: 1.25;
+}
+
+/* ── Body Text ── */
+
+p {
+    margin: 0 0 0.9em 0;
+    line-height: 1.7;
+    color: #4a5568;
+}
+
+a {
+    color: #2b6cb0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ── Lists ── */
+
+ul, ol {
+    margin: 0 0 1em 0;
+    padding-left: 1.4em;
+}
+
+li {
+    margin-bottom: 0.3em;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+li p {
+    margin-bottom: 0.3em;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* ── Code ── */
+
+tt, code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.875em;
+    background: #f7fafc;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    border: 1px solid #e2e8f0;
+}
+
+pre {
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    padding: 0.75em 1em;
+    overflow-x: auto;
+    font-size: 0.875em;
+    margin: 0 0 1em 0;
+}
+
+/* ── Info/Code Blocks (jemdoc legacy) ── */
+
+div.codeblock, div.infoblock {
+    margin: 1em 0 1.2em 0;
+}
+
+div.blocktitle {
+    font-weight: bold;
+    color: #744210;
+    margin-bottom: 0.25em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+}
+
+div.blockcontent {
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    padding: 0.5em 0.75em;
+}
+
+div.codeblock > div.blockcontent {
+    background: #f7fafc;
+}
+
+div.infoblock > div.blockcontent {
+    background: #fffbeb;
+    border-color: #fbd38d;
+}
+
+/* ── Tables ── */
+
+table {
+    border: 1px solid #e2e8f0;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.4em 0.75em;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+table.imgtable, table.imgtable td {
     border: none;
-    border-bottom: 1px solid
-    margin-top: 1.0em;
-    padding-bottom: 0;
+    text-align: left;
 }
 
-div.menu-item {
-    padding-left: 0;
-    text-indent: 0;
-    padding-bottom: 2px;
-}
-
-#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-    color: black;
-	border-bottom: 1px gray solid;
-}
-
-#layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #023689;
-	border-bottom: 1px gray solid;
-}
+/* ── Footer ── */
 
 div#footer {
-	border-top: 1px solid #e0e0e0;
-    font-size: 80%;
-    padding-bottom: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.75rem;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 0.5em;
+    margin-top: 3rem;
+    color: #a0aec0;
 }
 
 div#footer a {
-	color: #bbbbbb;
-    border-bottom: 1px solid #cccccc;
+    color: #90cdf4;
 }
 
+div#footer-text {
+    float: left;
+    padding-bottom: 8px;
+}
 
-div#toptitle {
-    border: none;
+/* ── Print ── */
+
+@media print {
+    body { background: white; }
+    #layout { box-shadow: none; max-width: 100%; }
+    #layout-menu { display: none; }
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 620px) {
+    body {
+        background: white;
+    }
+
+    #layout {
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    #layout-menu {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .menu-item {
+        margin-bottom: 0;
+    }
+
+    #layout-content {
+        padding: 1.25rem 1rem 2rem;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-links {
+        justify-content: center;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
 }
